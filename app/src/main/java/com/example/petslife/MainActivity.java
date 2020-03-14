@@ -10,9 +10,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.example.petslife.ProfileActivity;
-import com.example.petslife.R;
-
 public class MainActivity extends AppCompatActivity {
     private Button button;
     private Object TextView;
