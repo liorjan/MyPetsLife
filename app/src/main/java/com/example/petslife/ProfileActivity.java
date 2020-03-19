@@ -4,18 +4,22 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.Toast;
 
 import java.util.ArrayList;
 
 public class ProfileActivity extends AppCompatActivity {
 
+    EditText pet_name,pet_color,pet_race;
     Button addPet;
     String add_pet;
 
+    @SuppressLint("WrongViewCast")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,11 +34,16 @@ public class ProfileActivity extends AppCompatActivity {
 
         PetsList.setAdapter(adapter);
 
-        Button button = findViewById(R.id.add_pet);
+        pet_name = findViewById(R.id.pet_name);
+        pet_color = findViewById(R.id.pet_color);
+        pet_race = findViewById(R.id.pet_race);
+
         addPet.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                pet_name.setText(pet_name.getText().toString());
+                pet_color.setText(pet_color.getText().toString());
+                pet_race.setText(pet_race.getText().toString());
             }
         });
     }
