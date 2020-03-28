@@ -38,7 +38,7 @@
         android:layout_marginStart="108dp"
         android:layout_marginTop="26dp"
         android:layout_marginEnd="117dp"
-        android:contentDescription="TODO"
+        android:contentDescription="@string/todo"
         app:srcCompat="@drawable/petsicon" />
 
     <TextView
@@ -51,7 +51,7 @@
         android:layout_marginStart="126dp"
         android:layout_marginTop="-19dp"
         android:layout_marginEnd="123dp"
-        android:text="welcome to MyPetsLife"
+        android:text="@string/welcome_to_mypetslife"
         android:textAlignment="center"
         android:textColor="#FFF" />
 
@@ -89,7 +89,7 @@
         android:background="#11000000"
         android:drawableStart="@drawable/ic_action_pass"
         android:ems="10"
-        android:hint="Password"
+        android:hint="@string/password"
         android:inputType="textPassword"
         android:textColorHint="#9CFFFFFF"
         android:textSize="14sp" />
@@ -99,7 +99,7 @@
         android:layout_width="wrap_content"
         android:layout_height="28dp"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
+        android:layout_alignParentTop="false"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="155dp"

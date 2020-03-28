@@ -38,7 +38,7 @@ public class ProfileActivity extends AppCompatActivity {
         adapter = new PetsAdapter(DataManager.getInstance().getPets());
         recyclerView.setAdapter(adapter);
         adapter.setListener(pet->{
-             Toast.makeText(this, pet.getName(), Toast.LENGTH_SHORT).show();
+             Toast.makeText(this , pet.getName(), Toast.LENGTH_SHORT).show();
         });
 
         FloatingActionButton fab = findViewById(R.id.fab);
