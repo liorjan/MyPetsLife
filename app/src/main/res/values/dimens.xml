@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layout_size">120dp</dimen>
+    <dimen name="header_size">18sp</dimen>
+    <dimen name="layout_margin">4dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <drawable name="mybuttons"/>
+    <drawable name="android_lucky"></drawable>
+    <drawable name="android_bell"></drawable>
+    <drawable name="android_pony"></drawable>
 </resources>
