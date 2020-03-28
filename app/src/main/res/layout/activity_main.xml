@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient"
-    tools:context="MainActivity">
+    tools:context=".activities.MainActivity">
 
     <Button
         android:id="@+id/LoginBtn"
@@ -94,7 +94,7 @@
         android:textColorHint="#9CFFFFFF"
         android:textSize="14sp" />
 
-    <TextView
+    <Button
         android:id="@+id/RegisterBtn"
         android:layout_width="wrap_content"
         android:layout_height="28dp"
@@ -102,12 +102,13 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="152dp"
-        android:layout_marginTop="605dp"
-        android:layout_marginEnd="152dp"
-        android:layout_marginBottom="98dp"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="607dp"
+        android:layout_marginEnd="149dp"
+        android:layout_marginBottom="95dp"
+        android:background="@drawable/mybutton"
         android:text="@string/register_here"
         android:textAlignment="center"
-        android:textColor="#FFF" />
+        android:textColor="#000" />
 
 </RelativeLayout>
